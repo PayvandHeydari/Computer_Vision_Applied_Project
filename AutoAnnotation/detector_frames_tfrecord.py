@@ -9,6 +9,7 @@ from tensorflow.python.keras.utils.data_utils import get_file
 from tensorflow.train import Example, Features, Feature, BytesList, FloatList, Int64List
 from tensorflow.io import serialize_tensor, TFRecordWriter
 
+# this controls the color scheme 
 np.random.seed(123)
 
 
